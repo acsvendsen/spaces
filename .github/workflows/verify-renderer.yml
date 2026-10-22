@@ -1,0 +1,20 @@
+name: Verify public renderer
+on:
+  workflow_dispatch:
+permissions: {}
+jobs:
+  public-https:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Verify HTTPS from outside the home network
+        shell: bash
+        run: |
+          set -euo pipefail
+          result=$(curl --fail --silent --show-error --connect-timeout 10 --max-time 20 https://render.spaces.proto.dk:8443/health)
+          test "$result" = '{"ready": true}'
+          for path in api/layout model/saved-layout.json jobs/aaaaaaaaaaaaaaaaaaaaaaaa images/aaaaaaaaaaaaaaaaaaaaaaaa; do
+            status=$(curl --silent --show-error --connect-timeout 10 --max-time 20 --output /dev/null --write-out '%{http_code}' "https://render.spaces.proto.dk:8443/$path")
+            test "$status" = 404
+          done
+          echo 'Public HTTPS ready; private routes and unauthorised results blocked.'
