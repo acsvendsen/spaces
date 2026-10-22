@@ -1,0 +1,172 @@
+{
+  "source": "https://fibrotech.dk/vare/fibrotech-premium-basic-akustikpanel-22-x-605-x-2440-mm/",
+  "finishNote": "Digital finish approximations; not colour-calibrated. Slat pitch is a visual estimate.",
+  "finishes": [
+    {
+      "id": "existing-oak",
+      "name": "Current oak",
+      "colour": "#a1855d"
+    },
+    {
+      "id": "ash",
+      "name": "Ash",
+      "colour": "#cfbfa5"
+    },
+    {
+      "id": "black-oak",
+      "name": "Black Oak",
+      "colour": "#292621"
+    },
+    {
+      "id": "grey-oak",
+      "name": "Grey Oak",
+      "colour": "#8c857a"
+    },
+    {
+      "id": "light-oak",
+      "name": "Light Oak",
+      "colour": "#c6a675"
+    },
+    {
+      "id": "oiled-oak",
+      "name": "Oiled Oak",
+      "colour": "#ad814d"
+    },
+    {
+      "id": "smoked-oak",
+      "name": "Smoked Oak",
+      "colour": "#69503c"
+    },
+    {
+      "id": "walnut",
+      "name": "Walnut",
+      "colour": "#79533b"
+    }
+  ],
+  "items": [
+    {
+      "id": "fibrotech-premium",
+      "kind": "panel",
+      "category": "Acoustic panels",
+      "name": "Fibrotech PREMIUM",
+      "description": "22 \u00d7 605 \u00d7 2440 mm. Seven wood finishes; cut to fit this 240 cm room.",
+      "width": 0.605,
+      "height": 2.4,
+      "depth": 0.022,
+      "stockHeight": 2.44,
+      "backing": 0.009,
+      "slatWidth": 0.027,
+      "pitch": 0.04,
+      "source": "https://fibrotech.dk/vare/fibrotech-premium-basic-akustikpanel-22-x-605-x-2440-mm/"
+    },
+    {
+      "id": "oak-shelf",
+      "kind": "shelf",
+      "category": "Shelves",
+      "name": "Floating wood shelf",
+      "description": "Adjust the width, depth, height and wall position.",
+      "width": 0.53,
+      "height": 0.035,
+      "depth": 0.29
+    },
+    {
+      "id": "plant-large",
+      "kind": "plant",
+      "category": "Plants",
+      "name": "Leafy floor plant",
+      "description": "Photographed plant in a terracotta pot. Resize, rotate and place.",
+      "height": 0.83
+    },
+    {
+      "id": "plant-small",
+      "kind": "plant",
+      "category": "Plants",
+      "name": "Small potted plant",
+      "description": "A compact photographed plant for the sill, bench or floor.",
+      "height": 0.33
+    },
+    {
+      "id": "plant-ivy",
+      "kind": "plant",
+      "category": "Plants",
+      "name": "Trailing ivy",
+      "description": "An ivory planter with trailing stems. Position the pot on a shelf.",
+      "height": 0.7
+    }
+  ],
+  "defaults": [
+    {
+      "id": "existing-tv-panels",
+      "type": "fibrotech-premium",
+      "position": [
+        0,
+        1.87,
+        0
+      ],
+      "wall": "left",
+      "rotation": 0,
+      "width": 2.64,
+      "height": 2.4,
+      "depth": 0.021,
+      "finish": "existing-oak",
+      "orientation": "vertical",
+      "existing": true
+    },
+    {
+      "id": "existing-shelf-lower",
+      "type": "oak-shelf",
+      "position": [
+        0.015,
+        0.55,
+        1.73
+      ],
+      "wall": "left",
+      "rotation": 0,
+      "width": 0.53,
+      "height": 0.035,
+      "depth": 0.29,
+      "finish": "existing-oak",
+      "decor": false
+    },
+    {
+      "id": "existing-shelf-upper",
+      "type": "oak-shelf",
+      "position": [
+        0.015,
+        0.55,
+        2.08
+      ],
+      "wall": "left",
+      "rotation": 0,
+      "width": 0.53,
+      "height": 0.035,
+      "depth": 0.29,
+      "finish": "existing-oak",
+      "decor": true
+    },
+    {
+      "id": "existing-floor-plant",
+      "type": "plant-large",
+      "position": [
+        0.3,
+        0.3,
+        0.03
+      ],
+      "wall": "left",
+      "rotation": 0,
+      "height": 0.83
+    },
+    {
+      "id": "existing-sill-plant",
+      "type": "plant-small",
+      "position": [
+        2.75,
+        2.13,
+        0.744
+      ],
+      "wall": "left",
+      "rotation": 0,
+      "height": 0.33
+    }
+  ]
+}
