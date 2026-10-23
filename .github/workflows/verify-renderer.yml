@@ -21,4 +21,6 @@ jobs:
             status=$(curl --silent --show-error --connect-timeout 10 --max-time 20 --output /dev/null --write-out '%{http_code}' "https://render.spaces.proto.dk:8443/$path")
             test "$status" = 401
           done
-          echo 'Public HTTPS ready; private account projects, owner routes and unauthorised results blocked.' 
+          status=$(curl --silent --show-error --connect-timeout 10 --max-time 20 --output /dev/null --write-out '%{http_code}' -H 'Content-Type: application/json' --data '{}' https://render.spaces.proto.dk:8443/render)
+          test "$status" = 401
+          echo 'Public HTTPS ready; private account projects, owner routes and unauthorised results blocked.'  
