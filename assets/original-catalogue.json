@@ -1,0 +1,331 @@
+{
+  "envelopeSource": "Existing scene geometry; not manufacturer measurements.",
+  "items": [
+    {
+      "id": "original-sofa",
+      "key": "sofa",
+      "name": "Sofa, cushions & throw",
+      "original": true,
+      "anchor": "Base above floor (cm)",
+      "origin": [
+        1.961198,
+        1.78,
+        0
+      ],
+      "minimum": [
+        -0.808802,
+        -1.75,
+        0.0
+      ],
+      "maximum": [
+        0.808802,
+        1.75,
+        0.877361
+      ]
+    },
+    {
+      "id": "original-coffee-table",
+      "key": "coffee-table",
+      "name": "Coffee table & styling",
+      "original": true,
+      "anchor": "Base above floor (cm)",
+      "origin": [
+        1.25,
+        2.36,
+        0
+      ],
+      "minimum": [
+        -0.325,
+        -0.55,
+        0.02
+      ],
+      "maximum": [
+        0.325,
+        0.55,
+        0.884463
+      ],
+      "lightFixture": "candles",
+      "sourceRegion": [
+        0,
+        2.87,
+        0,
+        3
+      ]
+    },
+    {
+      "id": "original-rug",
+      "key": "rug",
+      "name": "Rug",
+      "original": true,
+      "anchor": "Base above floor (cm)",
+      "origin": [
+        1.55,
+        1.94,
+        0
+      ],
+      "minimum": [
+        -0.973,
+        -1.4,
+        0.009
+      ],
+      "maximum": [
+        0.973,
+        1.4,
+        0.0288
+      ]
+    },
+    {
+      "id": "original-stove",
+      "key": "stove",
+      "name": "Stove, flue & hearth",
+      "original": true,
+      "anchor": "Base above floor (cm)",
+      "origin": [
+        2.355,
+        -0.43,
+        0
+      ],
+      "minimum": [
+        -0.435,
+        -0.43,
+        0.002
+      ],
+      "maximum": [
+        0.435,
+        0.43,
+        2.4
+      ]
+    },
+    {
+      "id": "original-curtains",
+      "key": "curtains",
+      "name": "Curtains & pole",
+      "original": true,
+      "anchor": "Bottom edge above floor (cm)",
+      "origin": [
+        1.445,
+        3.446539,
+        0.027016
+      ],
+      "minimum": [
+        -1.06,
+        -0.047525,
+        0.0
+      ],
+      "maximum": [
+        1.06,
+        0.047525,
+        2.262984
+      ]
+    },
+    {
+      "id": "original-blind",
+      "key": "blind",
+      "name": "Roman blind",
+      "original": true,
+      "anchor": "Bottom edge above floor (cm)",
+      "origin": [
+        2.811504,
+        1.789978,
+        1.59
+      ],
+      "minimum": [
+        -0.021489,
+        -0.535046,
+        0.0
+      ],
+      "maximum": [
+        0.021489,
+        0.535046,
+        0.43525
+      ]
+    },
+    {
+      "id": "original-radiator",
+      "key": "radiator",
+      "name": "Radiator",
+      "original": true,
+      "anchor": "Bottom edge above floor (cm)",
+      "origin": [
+        1.4525,
+        3.51275,
+        0.115
+      ],
+      "minimum": [
+        -0.6025,
+        -0.05425,
+        0.0
+      ],
+      "maximum": [
+        0.6025,
+        0.05425,
+        0.6525
+      ]
+    },
+    {
+      "id": "original-art-1",
+      "key": "art-1",
+      "name": "Upper framed picture",
+      "original": true,
+      "anchor": "Bottom edge above floor (cm)",
+      "origin": [
+        2.82875,
+        0.51,
+        1.587
+      ],
+      "minimum": [
+        -0.01625,
+        -0.178,
+        0.0
+      ],
+      "maximum": [
+        0.01625,
+        0.178,
+        0.426
+      ]
+    },
+    {
+      "id": "original-art-2",
+      "key": "art-2",
+      "name": "Lower framed picture",
+      "original": true,
+      "anchor": "Bottom edge above floor (cm)",
+      "origin": [
+        2.82875,
+        0.51,
+        1.097
+      ],
+      "minimum": [
+        -0.01625,
+        -0.178,
+        0.0
+      ],
+      "maximum": [
+        0.01625,
+        0.178,
+        0.426
+      ]
+    },
+    {
+      "id": "original-art-3",
+      "key": "art-3",
+      "name": "Far framed picture",
+      "original": true,
+      "anchor": "Bottom edge above floor (cm)",
+      "origin": [
+        2.82875,
+        2.79,
+        1.262
+      ],
+      "minimum": [
+        -0.01625,
+        -0.163,
+        0.0
+      ],
+      "maximum": [
+        0.01625,
+        0.163,
+        0.476
+      ]
+    },
+    {
+      "id": "original-end-styling",
+      "key": "end-styling",
+      "name": "End-window vase & candle",
+      "original": true,
+      "anchor": "Bottom edge above floor (cm)",
+      "origin": [
+        1.461247,
+        3.498685,
+        0.805
+      ],
+      "minimum": [
+        -0.246753,
+        -0.085154,
+        0.0
+      ],
+      "maximum": [
+        0.246753,
+        0.085154,
+        0.446561
+      ],
+      "lightFixture": "candles",
+      "sourceRegion": [
+        0,
+        2.87,
+        3,
+        3.63
+      ]
+    },
+    {
+      "id": "original-sill",
+      "key": "sill",
+      "name": "Sill lamp",
+      "original": true,
+      "anchor": "Bottom edge above floor (cm)",
+      "origin": [
+        2.74,
+        1.46,
+        0.7325
+      ],
+      "minimum": [
+        -0.1003,
+        -0.1003,
+        0.0
+      ],
+      "maximum": [
+        0.1003,
+        0.1003,
+        0.3713
+      ],
+      "baseFixture": "sill"
+    },
+    {
+      "id": "original-pendant",
+      "key": "pendant",
+      "name": "Existing pendant",
+      "original": true,
+      "anchor": "Bottom edge above floor (cm)",
+      "origin": [
+        2.439996,
+        3.15,
+        1.698831
+      ],
+      "minimum": [
+        -0.156963,
+        -0.156847,
+        0.0
+      ],
+      "maximum": [
+        0.156963,
+        0.156847,
+        0.694669
+      ],
+      "baseFixture": "pendant",
+      "mount": "ceiling"
+    },
+    {
+      "id": "original-uplight",
+      "key": "uplight",
+      "name": "Floor uplighter",
+      "original": true,
+      "anchor": "Bottom edge above floor (cm)",
+      "origin": [
+        0.64,
+        0.68,
+        0.0045
+      ],
+      "minimum": [
+        -0.12,
+        -0.12,
+        0.0
+      ],
+      "maximum": [
+        0.12,
+        0.12,
+        1.7945
+      ],
+      "baseFixture": "uplight"
+    }
+  ]
+}
