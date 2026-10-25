@@ -46,6 +46,7 @@
   });
   window.roomBoot = {
     build:build,
+    built:script.getAttribute('data-built') || '',
     backend:backend,
     asset:function (path) { return path + '?v=' + encodeURIComponent(build); },
     progress:progress,
